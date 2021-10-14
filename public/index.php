@@ -1,12 +1,10 @@
 <?php
 
-include_once "../models/Category.php";
-include_once "../models/EcommerceCatalog.php";
-include_once "../models/Product.php";
+include_once '../vendor/autoload.php';
 
-use Models\Category;
-use Models\EcommerceCatalog;
-use Models\Product;
+use AlekseonRecrutationApp\Models\Category;
+use AlekseonRecrutationApp\Models\EcommerceCatalog;
+use AlekseonRecrutationApp\Models\Product;
 
 $rootCategory = new Category("root");
 

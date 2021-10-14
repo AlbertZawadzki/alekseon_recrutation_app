@@ -1,0 +1,11 @@
+{
+    "name": "albert/alekseon_recrutation_app",
+    "description": "Application made for recrutation to Alekseon company",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "AlekseonRecrutationApp\\": "src/"
+        }
+    },
+    "require": {}
+}
