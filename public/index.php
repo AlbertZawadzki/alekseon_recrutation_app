@@ -2,9 +2,9 @@
 
 include_once '../vendor/autoload.php';
 
-use AlekseonRecrutationApp\Models\Category;
-use AlekseonRecrutationApp\Models\EcommerceCatalog;
-use AlekseonRecrutationApp\Models\Product;
+use App\Models\Category;
+use App\Models\EcommerceCatalog;
+use App\Models\Product;
 
 $rootCategory = new Category("root");
 

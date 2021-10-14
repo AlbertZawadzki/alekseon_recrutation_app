@@ -1,6 +1,6 @@
 <?php
 
-namespace AlekseonRecrutationApp\Models;
+namespace App\Models;
 
 class EcommerceCatalog
 {
